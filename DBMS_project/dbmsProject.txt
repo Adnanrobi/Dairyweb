@@ -1,0 +1,21 @@
+CREATE USER 'robi'@'localhost' IDENTIFIED BY 'test123';
+CREATE DATABASE Dairyweb;
+GRANT ALL PRIVILEGES ON Dairyweb.* TO 'robi'@'localhost';
+USE Dairyweb;
+
+name, price, description, image, id
+
+CREATE TABLE IF NOT EXISTS PRODUCTS(
+id BIGINT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+name VARCHAR(40) not null,
+price DOUBLE  not null,
+image longtext not null,
+description VARCHAR(400) not null
+)ENGINE = InnoDB;
+
+
+for error
+ALTER USER 'robi'@'localhost' IDENTIFIED WITH mysql_native_password BY 'test123'
+
+INSERT INTO PRODUCTS (name, price, description,image)
+VALUES ("cheese", 500, "VARY TASTEY" ,"www.image.com");
