@@ -1,6 +1,6 @@
 module.exports = (app) => {
     const stripe = require('stripe')(
-      'sk_test_51HZDOcHKFvH5Oe64TeTlfi1jVBOuZWkXNLmThln5aHz8AQ1ultBRscmDnx5XTPGfZ2QGecu4RBoLsxZBLCupsyik008PPJjTsM'
+      'sk_test_51IHNjNKgQbG1PPcW7AaG9a4yTg1grBp7QIxxNwminSKiu2dipUzQvVBe0VwZZa7CQcOwRG3j3n6MQfe0EvF1SSFy00b17KBcJ3'
     );
     const { v4: uuidv4 } = require('uuid');
   

@@ -16,14 +16,14 @@ const Navbar = () => {
       <div className='navbar__Logo'>
         <Logo />
       </div>
-      <div className='navbar__buttons'>
+      <Link to='/' className='navbar__buttons'>
         <PermIdentityIcon />
-        Sign In
-      </div>
-      <div className='navbar__buttons'>
+        Sign Out
+      </Link>
+      <Link to='/orders' className='navbar__buttons'>
         <InboxIcon />
         Orders
-      </div>
+      </Link>
       <Link to='/cart' className='navbar__buttons'>
         <ShoppingBasketIcon />
         Cart: {state.cart.length}

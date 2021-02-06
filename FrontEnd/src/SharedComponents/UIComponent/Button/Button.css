@@ -12,7 +12,7 @@
 
 .red {
   margin: 1rem;
-  background-color: red;
+  background-color: rgb(90, 25, 25);
   color: #f1f1f1;
   padding: 0.5rem;
   cursor: pointer;

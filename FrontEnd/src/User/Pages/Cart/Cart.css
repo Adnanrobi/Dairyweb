@@ -1,0 +1,19 @@
+.cart__Summary {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #005f40;
+    margin: 1rem;
+    padding: 1rem;
+    color: #f1f1f1;
+    font-size: 1.2rem;
+  }
+  
+  .cart__input {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: #005f40;
+    margin: 1rem;
+    padding: 1rem;
+    color: #f1f1f1;
+  }
