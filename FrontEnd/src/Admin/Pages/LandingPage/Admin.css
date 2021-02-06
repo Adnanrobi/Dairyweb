@@ -1,0 +1,41 @@
+.admin__main {
+    display: grid;
+    place-items: center;
+    background-color: lightgreen;
+    height: 100vh;
+  }
+  .login__container_ {
+    padding: 4rem 3.5rem 3rem 3.5rem;
+    text-align: center;
+    background-color: #005f40;
+    border-radius: 10px;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.35), 0 1rem;
+  }
+   
+  .admin__main__text {
+    padding: 2rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+   
+    color: white;
+  }
+   
+  .login__container_ > img {
+    object-fit: contain;
+    height: 100px;
+    margin-bottom: 40px;
+  }
+   
+  .login__container_ > button {
+    margin-top: 50px;
+    text-transform: inherit !important;
+    background-color: #0a8d48 !important;
+    color: white;
+  }
+   
+  .admin__Link {
+    text-decoration: none;
+  }
+
+  .button{
+      display: flex;
+  }
