@@ -32,7 +32,6 @@ const Cart = () => {
 
   const createOrder = () => {
     var data = {
-      orderID: orderid,
       userID: currentUser[0].id,
       address: address,
       totalItem: cart.length,
